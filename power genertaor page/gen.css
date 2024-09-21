@@ -1,0 +1,165 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: transparent; 
+    padding: 40px;
+    color: black; 
+    position: relative;
+}
+.logo-div .nav-logo {
+    color: black;
+    text-decoration: none; 
+    font-size: 20px;
+}
+.nav-logo:hover {
+    font-size: 150%;
+}
+.nav-list {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+.nav-item {
+    margin-left: 20px; 
+}
+.nav-item a {
+    color: black; 
+    text-decoration: none; 
+    font-size: 18px; 
+}
+
+.nav-item a:hover {
+    color: #333; 
+    font-size: 150%;
+}
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+.hero {
+    background-image:  url(housepanel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.call-btn {
+    margin-left: 50px; 
+}
+.btn-contact {
+    color: black; 
+    text-decoration: none; 
+    background-color: transparent; 
+    border: 1px solid black; 
+    padding: 10px 20px; 
+    border-radius: 10px; 
+}
+
+.btn-contact:hover {
+    background-color: black; 
+    color: white; 
+}
+.bg-color {
+    background-color: rgb(188 216 162);
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+}
+.collabo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.input-group {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+.form {
+    padding: 30px 20px;
+    background: #f6f7df;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* width: 100%; */
+    border-radius: 15px;
+    box-shadow:  0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.container {
+    position: absolute;
+    z-index: 2;
+    /* border: 3px solid black; */
+    right: 70px;
+    margin-top: 250px;
+    width: 600px;
+}
+.three {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; 
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20px;
+  }
+input {
+    background: #e4e5cf;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-top: 9px;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+.Take {
+    font-size: 60px;
+    color: black;
+    padding-left: 50px;
+    margin-top: 0px;
+}
+.Get {
+    font-size: 20px;
+    color: black;
+    padding-left: 50px;
+}
+.quote-btn {
+    background-color: black; 
+    padding: 10px 10px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px;
+}
+.quote-btn:hover {
+    color: #333;
+    background-color: transparent;
+    outline: 1px solid black;
+}
+
+  .manifesto {
+    background-color: #e4e5cf; 
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    padding: 20px 7px 15px 7px; 
+    width: 150px; 
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  }
+  .manifesto i {
+    font-size: 24px; 
+    color: black; 
+    margin-bottom: 10px; 
+  }
+  
+  .manifesto p {
+    margin: 0;
+    line-height: 1.5; 
+  }
+  
