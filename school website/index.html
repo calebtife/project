@@ -414,34 +414,6 @@
             </div>
         </section>
         
-         
-       <script>
-                function handleSubmit() {
-                const emailField = document.getElementById('emailField');
-                const submitButton = document.getElementById('submitButton');
-                const thankYouMessage = document.getElementById('thankYouMessage');
-
-                // Change button text to 'Please wait' and disable it
-                submitButton.innerHTML = 'Please wait...';
-                submitButton.disabled = true;
-
-                // Simulate a delay (for example, waiting for a server response)
-                setTimeout(function() {
-                    // Hide the input and button, and display the Thank You message
-                    emailField.style.display = 'none';
-                    submitButton.style.display = 'none';
-                    thankYouMessage.style.display = 'block';
-                }, 2000); // Simulates a 2-second wait
-            };
-        function showSidebar() {
-            const sidebar = document.querySelector('.sidebar')
-            sidebar.style.display = 'flex'
-        }
-        function hideSidebar() {
-            const sidebar = document.querySelector('.sidebar')
-            sidebar.style.display = 'none'
-        }
-
-       </script> 
+        <script src="school.js"></script>
     </body>
 </html>
