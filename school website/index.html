@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="school.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <title>School Website</title>
     </head>
     <body>
@@ -413,7 +414,94 @@
 
             </div>
         </section>
+
+        <!-- image section -->
+        <section class="imageSwiper-section">
+            <div class="image-subheading">
+              <h2>View How <span style="color: #ffc10e;">It Looks</span></h2>
+              <div class="underline"></div>
+            </div>
+          
+            <div class="image-container">
+              <!-- Swiper main container -->
+              <div class="swiper">
+                <!-- Swiper wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slide 1 -->
+                  <div class="swiper-slide">
+                    <img src="slider1.jpg" alt="Gallery Image 1">
+                  </div>
+                  <!-- Slide 2 -->
+                  <div class="swiper-slide">
+                    <img src="slider2.jpg" alt="Gallery Image 2">
+                  </div>
+                  <!-- Slide 3 -->
+                  <div class="swiper-slide">
+                    <img src="slider3.jpg" alt="Gallery Image 3">
+                  </div>
+                  <!-- Slide 4 -->
+                  <div class="swiper-slide">
+                    <img src="slider4.jpeg" alt="Gallery Image 4">
+                  </div>
+                  <!-- Slide 5 -->
+                  <div class="swiper-slide">
+                    <img src="slider5.jpg" alt="Gallery Image 5">
+                  </div>
+                </div>
+                
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+          
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+          
+              </div>
+            </div>
+          </section>
+          <div class="image-gallery">
+            <img src="gallery1.jpg" alt="Gallery" class="gallery">
+            <img src="gallery2.jpg" alt="Gallery" class="gallery">
+            <img src="gallery3.jpg" alt="Gallery" class="gallery">
+            <img src="gallery5.jpg" alt="Gallery" class="gallery">
+            <!-- <div class="image-link">Instagram @calebtife</div> -->
+          </div>
+        <section class="footer">
+            <div class="contact-section-container">
+                <div class="first-container">
+                  <div class="first-container-top">
+                    <a href="index.html" class="footer-logo">
+                        <img src="https://cdn.prod.website-files.com/627387bf19e7f64639588c5a/6278ed3f4102c508df53671f_Logo-alma-mater%20(1).png" alt="Logo">
+                    </a>
+                  </div>  
+                  <div class="first-container-body">
+                    <p><i>font awesome location</i>Grand Conference Hall - 3rd Avenue, New York, USA</p>
+                    <a href="tel:+2349028741416"><i class="fas fa-mobile-alt"></i>(234) 902 874 1416</a>
+                    <a href="mailto:caleboluwafemi6@gmail.com"><i class="fas fa-at"></i>info@almamater.com</a>
+                  </div>
+                </div>
+            </div>
+        </section>
         
         <script src="school.js"></script>
+        <!-- swiper src tag -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            // Initialize Swipper
+            const swiper = new Swiper('.swiper', {
+                loop: true, // Enable loop mode
+                pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                },
+                navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+                },
+                scrollbar: {
+                el: '.swiper-scrollbar',
+                },
+            });
+        </script>
     </body>
 </html>
